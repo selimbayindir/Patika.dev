@@ -31,3 +31,35 @@ Console.WriteLine(deger+" "+ver+" "+name);
 
 
 #endregion
+#region Operatörler
+int a = 2;
+int y = 3;
+y += 2;
+Console.WriteLine(y);
+y /= 1;
+Console.WriteLine(y);
+a += 3;
+Console.WriteLine(a);
+///MANTIKSAL OPERATORLER
+bool isSuccess =true;
+bool isCompleted = true;
+if (isCompleted && isSuccess)
+    Console.WriteLine("Perfect");
+if (isCompleted || isSuccess)
+    Console.WriteLine("Great");
+if (isCompleted && !isSuccess)
+    Console.WriteLine("Fine");
+/// iLİŞKİSEL OPERATORLER
+//<,>,<=,=>,==,!=
+int xc= 7;
+int cx = 8;
+bool sonuc = xc < cx;
+if (sonuc)
+    Console.WriteLine($"xc({xc}) - cx({cx}) küçüktür..");
+  
+else 
+{
+    Console.WriteLine($"xc({xc}) - cx({cx}) büyüktür..");
+
+}
+#endregion
